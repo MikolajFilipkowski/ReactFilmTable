@@ -7,7 +7,6 @@ const movies = [
     genre: { _id: "1818", name: "Action" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
-    publishDate: "2018-01-03T19:04:28.809Z"
   },
   {
     _id: "16",
@@ -53,7 +52,7 @@ const movies = [
   },
   {
     _id: "1f",
-    title: "React wieczorow� por�",
+    title: "React wieczorową porą",
     genre: { _id: "1820", name: "Thriller" },
     numberInStock: 4,
     dailyRentalRate: 3.5
