@@ -19,7 +19,7 @@ export default class MovieList extends Component {
         console.log(id)
         this.setState({movies: 
             this.state.movies.filter(
-            (v) => {console.log(id); return v._id !== id}
+            (v) => {return v._id !== id}
         )})
     }
 
